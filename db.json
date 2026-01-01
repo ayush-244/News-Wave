@@ -1,0 +1,224 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "Revolutionary AI Breakthrough Changes Tech Industry Forever",
+      "description": "Scientists unveil groundbreaking artificial intelligence system that can understand context like never before.",
+      "content": "In a major development that could reshape the technology landscape, researchers have unveiled a new AI system with unprecedented contextual understanding. The system demonstrates remarkable abilities in natural language processing and reasoning.\n\nThis breakthrough represents years of collaborative research between leading tech companies and academic institutions. The implications for various industries are profound, from healthcare to finance, education to entertainment.\n\nThe new system can process and understand context in ways that previous AI models could not, making it more reliable and useful for real-world applications. Early adopters are already seeing significant improvements in their operations.",
+      "url": "https://example.com/ai-breakthrough",
+      "urlToImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+      "publishedAt": "2024-01-15T10:00:00.000Z",
+      "source": {
+        "name": "Tech Today"
+      },
+      "category": "technology",
+      "author": "Jane Smith"
+    },
+    {
+      "id": "2",
+      "title": "Championship Finals Set Record Viewership Numbers",
+      "description": "Historic sports event draws millions of viewers worldwide in an unforgettable match.",
+      "content": "The championship finals have concluded with record-breaking viewership numbers, as millions tuned in to watch the thrilling conclusion. The match lived up to its billing with dramatic moments throughout.\n\nFans around the world were treated to an exceptional display of athleticism and skill. The final moments of the game will be remembered for years to come, with both teams giving their all until the very last second.\n\nThis event has set a new benchmark for sports entertainment, demonstrating the global appeal of competitive sports and the power of live events to bring people together.",
+      "url": "https://example.com/championship",
+      "urlToImage": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&q=80",
+      "publishedAt": "2024-01-15T08:00:00.000Z",
+      "source": {
+        "name": "Sports Network"
+      },
+      "category": "sports",
+      "author": "Mike Johnson"
+    },
+    {
+      "id": "3",
+      "title": "Global Markets Reach All-Time Highs Amid Recovery",
+      "description": "Stock markets worldwide celebrate strong economic indicators and investor confidence.",
+      "content": "Financial markets across the globe have reached new peaks as investors respond positively to economic data. Analysts attribute the surge to strong corporate earnings and optimistic growth forecasts.\n\nThe recovery has been faster than many experts predicted, with multiple sectors showing robust performance. Technology, healthcare, and renewable energy companies have been particularly strong performers.\n\nInvestors are cautiously optimistic about the future, though some warn that volatility may still be ahead. The current trend reflects growing confidence in economic stability and long-term growth prospects.",
+      "url": "https://example.com/markets",
+      "urlToImage": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80",
+      "publishedAt": "2024-01-15T06:00:00.000Z",
+      "source": {
+        "name": "Business Daily"
+      },
+      "category": "business",
+      "author": "Sarah Chen"
+    },
+    {
+      "id": "4",
+      "title": "Award-Winning Film Captivates Global Audiences",
+      "description": "New cinematic masterpiece receives critical acclaim and breaks box office records.",
+      "content": "The latest release from acclaimed director has taken the world by storm, combining stunning visuals with powerful storytelling. Critics and audiences alike have praised the film's innovative approach.\n\nThe film has already garnered multiple awards and nominations, with particular recognition for its cinematography, screenplay, and performances. Industry experts predict it will be a strong contender during awards season.\n\nMoviegoers have flocked to theaters, making it one of the highest-grossing films of the year. The success demonstrates the enduring appeal of quality storytelling and the power of cinema to move and inspire audiences.",
+      "url": "https://example.com/film",
+      "urlToImage": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80",
+      "publishedAt": "2024-01-15T04:00:00.000Z",
+      "source": {
+        "name": "Entertainment Weekly"
+      },
+      "category": "entertainment",
+      "author": "David Martinez"
+    },
+    {
+      "id": "5",
+      "title": "Scientists Discover Potential Cure for Common Disease",
+      "description": "Medical breakthrough offers hope for millions affected by chronic condition.",
+      "content": "Researchers at leading universities have made a significant breakthrough in treating a widespread chronic condition. The new treatment approach shows promising results in early trials.\n\nThe research team has been working on this project for over a decade, and the results are finally showing promise. Clinical trials have demonstrated significant improvements in patient outcomes, with minimal side effects.\n\nIf approved, this treatment could help millions of people worldwide who currently struggle with limited treatment options. The medical community is cautiously optimistic about the potential impact.",
+      "url": "https://example.com/medical",
+      "urlToImage": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&q=80",
+      "publishedAt": "2024-01-15T02:00:00.000Z",
+      "source": {
+        "name": "Medical Journal"
+      },
+      "category": "health",
+      "author": "Dr. Emily White"
+    },
+    {
+      "id": "6",
+      "title": "Space Mission Returns with Unprecedented Discoveries",
+      "description": "Deep space exploration yields fascinating insights about our universe.",
+      "content": "A recent space mission has returned with data that challenges our understanding of the cosmos. Scientists are excited about the implications for future exploration and research.\n\nThe mission collected samples and data from a previously unexplored region of space, revealing new information about planetary formation and the origins of our solar system. The findings could reshape our understanding of how planets develop and evolve.\n\nThis mission represents a significant milestone in space exploration, demonstrating our growing capabilities in deep space research. Future missions are already being planned based on these discoveries.",
+      "url": "https://example.com/space",
+      "urlToImage": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&q=80",
+      "publishedAt": "2024-01-15T00:00:00.000Z",
+      "source": {
+        "name": "Science Daily"
+      },
+      "category": "science",
+      "author": "Prof. Robert Lee"
+    },
+    {
+      "id": "7",
+      "title": "Tech Giants Announce Major Sustainability Initiative",
+      "description": "Leading companies commit to ambitious environmental goals.",
+      "content": "Major technology companies have joined forces to announce a comprehensive sustainability program. The initiative aims to achieve carbon neutrality within the next decade.\n\nThe program includes significant investments in renewable energy, waste reduction, and sustainable manufacturing processes. Companies are committing to transparent reporting and regular progress updates.\n\nThis collaborative effort represents one of the largest private-sector environmental initiatives in history. Industry leaders hope it will inspire other sectors to take similar action.",
+      "url": "https://example.com/sustainability",
+      "urlToImage": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=800&q=80",
+      "publishedAt": "2024-01-14T22:00:00.000Z",
+      "source": {
+        "name": "Tech Chronicle"
+      },
+      "category": "technology",
+      "author": "Lisa Anderson"
+    },
+    {
+      "id": "8",
+      "title": "Olympic Athletes Prepare for Upcoming Games",
+      "description": "World's best competitors gear up for highly anticipated sporting event.",
+      "content": "Athletes from around the world are in final preparations for the upcoming games. Training facilities are bustling with activity as competitors fine-tune their skills.\n\nThe anticipation is building as the games approach, with athletes and fans alike looking forward to the competition. Many athletes have been training for years for this opportunity to compete on the world stage.\n\nOrganizers have been working tirelessly to ensure everything is ready for the event, which promises to be one of the most memorable in recent history.",
+      "url": "https://example.com/olympics",
+      "urlToImage": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&q=80",
+      "publishedAt": "2024-01-14T20:00:00.000Z",
+      "source": {
+        "name": "Olympic News"
+      },
+      "category": "sports",
+      "author": "Tom Wilson"
+    },
+    {
+      "id": "9",
+      "title": "Cryptocurrency Market Sees Major Regulatory Changes",
+      "description": "New framework aims to bring clarity to digital asset landscape.",
+      "content": "Regulators have announced comprehensive guidelines for cryptocurrency trading and investment. The new framework is expected to provide much-needed clarity for investors and businesses.\n\nThe regulations address key concerns around security, transparency, and consumer protection. Industry participants have largely welcomed the clarity, though some have raised concerns about potential compliance costs.\n\nThis regulatory framework represents a significant step toward mainstream adoption of digital assets. Experts believe it will help build trust and stability in the market.",
+      "url": "https://example.com/crypto",
+      "urlToImage": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=800&q=80",
+      "publishedAt": "2024-01-14T18:00:00.000Z",
+      "source": {
+        "name": "Finance Today"
+      },
+      "category": "business",
+      "author": "Alex Kim"
+    },
+    {
+      "id": "10",
+      "title": "Streaming Service Announces Highly Anticipated Series",
+      "description": "Major platform reveals exciting new content lineup for subscribers.",
+      "content": "A leading streaming platform has unveiled its most ambitious series to date, featuring an all-star cast and cutting-edge production values. Pre-release buzz has been overwhelmingly positive.\n\nThe series promises to push the boundaries of storytelling, combining elements of drama, suspense, and science fiction. Early reviews from critics have been extremely favorable, with many calling it a must-watch.\n\nSubscribers are eagerly awaiting the release, which is expected to be one of the platform's biggest launches. The series represents a significant investment in original content.",
+      "url": "https://example.com/streaming",
+      "urlToImage": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&q=80",
+      "publishedAt": "2024-01-14T16:00:00.000Z",
+      "source": {
+        "name": "Entertainment Insider"
+      },
+      "category": "entertainment",
+      "author": "Rachel Green"
+    },
+    {
+      "id": "11",
+      "title": "Climate Research Reveals Surprising Ocean Patterns",
+      "description": "New study sheds light on complex marine ecosystem dynamics.",
+      "content": "Marine scientists have published findings that reveal unexpected patterns in ocean currents and their impact on global climate. The research opens new avenues for environmental protection efforts.\n\nThe study utilized advanced monitoring technology to track ocean movements over several years. The data collected has provided insights that were previously impossible to obtain.\n\nThese findings are crucial for understanding climate change and developing strategies to protect marine ecosystems. The research team hopes their work will inform policy decisions and conservation efforts.",
+      "url": "https://example.com/ocean",
+      "urlToImage": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80",
+      "publishedAt": "2024-01-14T14:00:00.000Z",
+      "source": {
+        "name": "Science Review"
+      },
+      "category": "science",
+      "author": "Dr. Maria Santos"
+    },
+    {
+      "id": "12",
+      "title": "Mental Health Awareness Campaigns Gain Momentum",
+      "description": "Organizations worldwide unite to reduce stigma and improve support.",
+      "content": "A global initiative to promote mental health awareness has gained significant traction. Healthcare providers and advocates are working together to ensure better access to support services.\n\nThe campaign focuses on breaking down barriers to mental health care and reducing the stigma that prevents many people from seeking help. Educational programs and support networks are being established in communities around the world.\n\nThis movement represents a significant shift in how society views and addresses mental health. Early results show increased awareness and improved access to resources.",
+      "url": "https://example.com/mental-health",
+      "urlToImage": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+      "publishedAt": "2024-01-14T12:00:00.000Z",
+      "source": {
+        "name": "Health Monitor"
+      },
+      "category": "health",
+      "author": "Dr. James Park"
+    },
+    {
+      "id": "06d9",
+      "title": "sports",
+      "description": "sports",
+      "content": "sports",
+      "url": "https://www.thehindu.com/sport/",
+      "urlToImage": "https://static.vecteezy.com/system/resources/thumbnails/045/658/844/small/athlete-sport-design-illustration-art-vector.jpg",
+      "publishedAt": "2025-12-05T20:31:14.822Z",
+      "source": {
+        "name": "NewsWave"
+      },
+      "category": "sports",
+      "author": "jeetseh"
+    }
+  ],
+  "categories": [
+    {
+      "slug": "technology",
+      "name": "Technology",
+      "icon": "💻",
+      "id": "6eeb"
+    },
+    {
+      "slug": "sports",
+      "name": "Sports",
+      "icon": "⚽",
+      "id": "c881"
+    },
+    {
+      "slug": "business",
+      "name": "Business",
+      "icon": "💼",
+      "id": "6b28"
+    },
+    {
+      "slug": "entertainment",
+      "name": "Entertainment",
+      "icon": "🎬",
+      "id": "aa4d"
+    },
+    {
+      "slug": "science",
+      "name": "Science",
+      "icon": "🔬",
+      "id": "09f4"
+    },
+    {
+      "slug": "health",
+      "name": "Health",
+      "icon": "❤️",
+      "id": "8f01"
+    }
+  ]
+}
