@@ -167,58 +167,38 @@
       },
       "category": "health",
       "author": "Dr. James Park"
-    },
-    {
-      "id": "06d9",
-      "title": "sports",
-      "description": "sports",
-      "content": "sports",
-      "url": "https://www.thehindu.com/sport/",
-      "urlToImage": "https://static.vecteezy.com/system/resources/thumbnails/045/658/844/small/athlete-sport-design-illustration-art-vector.jpg",
-      "publishedAt": "2025-12-05T20:31:14.822Z",
-      "source": {
-        "name": "NewsWave"
-      },
-      "category": "sports",
-      "author": "jeetseh"
     }
   ],
   "categories": [
     {
       "slug": "technology",
       "name": "Technology",
-      "icon": "💻",
-      "id": "6eeb"
+      "icon": "💻"
     },
     {
       "slug": "sports",
       "name": "Sports",
-      "icon": "⚽",
-      "id": "c881"
+      "icon": "⚽"
     },
     {
       "slug": "business",
       "name": "Business",
-      "icon": "💼",
-      "id": "6b28"
+      "icon": "💼"
     },
     {
       "slug": "entertainment",
       "name": "Entertainment",
-      "icon": "🎬",
-      "id": "aa4d"
+      "icon": "🎬"
     },
     {
       "slug": "science",
       "name": "Science",
-      "icon": "🔬",
-      "id": "09f4"
+      "icon": "🔬"
     },
     {
       "slug": "health",
       "name": "Health",
-      "icon": "❤️",
-      "id": "8f01"
+      "icon": "❤️"
     }
   ]
 }

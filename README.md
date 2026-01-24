@@ -1,137 +1,149 @@
-# News Wave — Modern News Aggregator
+# NewsWave – Modern News Aggregator
 
-A React-based news aggregator with full CRUD, favorites, search, and category filtering. Frontend runs on Vite; data is served via JSON Server.
+A React + TypeScript news aggregator with full CRUD via JSON Server.
 
 ## Overview
 
-News Wave lets users:
-- Browse articles by category (Technology, Sports, Business, Entertainment, Science, Health)
+NewsWave lets you:
+- Browse articles across categories (Technology, Sports, Business, Entertainment, Science, Health)
 - Search and filter articles
-- Save favorites (client-side)
+- Save favorites
+- Create, update, delete articles (Admin)
 - View detailed article pages
-- Manage articles via an Admin panel (create, update, delete)
 
 ## Tech Stack
 
-- **React 18** — UI framework
-- **Vite 5** — Dev server and build tool
-- **React Router v6** — Routing
-- **TanStack React Query v5** — Fetching/caching
-- **JSON Server** — REST API backend
-- **shadcn/ui + Radix** — UI primitives/components
-- **Tailwind CSS** — Styling
-- **Axios** — HTTP client
-- **date-fns**, **Sonner** — Utilities/notifications
+- React 18, TypeScript, Vite
+- React Router, TanStack Query (React Query)
+- JSON Server (REST API), Axios
+- shadcn/ui, Tailwind CSS
+- date-fns, Sonner (toasts)
 
-## Data & API
-
-- **Base URL**: `http://localhost:4000`
-- **Database**: `db.json` (root)
-- **Service Layer**: `src/services/api.js`
-- **Endpoints**:
-  - `GET /articles` — list
-  - `GET /articles/:id` — detail
-  - `GET /articles?category=...` — filter
-  - `POST /articles` — create
-  - `PATCH /articles/:id` — update
-  - `DELETE /articles/:id` — delete
-  - `GET /categories` — list categories
-
-## Project Structure
-
-```
-news-wave/
-├── db.json
-├── src/
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── index.css
-│   ├── components/
-│   │   ├── ArticleCard.jsx
-│   │   ├── ArticleForm.jsx
-│   │   ├── CategoryFilter.jsx
-│   │   ├── SearchBar.jsx
-│   │   ├── ui/            # shadcn/ui components
-│   │   └── ...
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── ArticlePage.jsx
-│   │   ├── CategoryPage.jsx
-│   │   ├── Favorites.jsx
-│   │   ├── Admin.jsx
-│   │   └── ...
-│   ├── services/
-│   │   └── api.js
-│   └── utils/
-│       └── favorites.js
-├── vite.config.js
-└── package.json
-```
-
-## Setup
+## Quick Start
 
 ### Prerequisites
 - Node.js v18+
+- npm (or yarn)
 
 ### Install
 ```bash
 npm install
 ```
 
-## Run
-
-The app uses two processes:
-1) **Frontend (Vite)** — `http://localhost:3000`
-2) **Backend (JSON Server)** — `http://localhost:4000`
-
-### Start both (recommended)
+### Run (Recommended)
+Start frontend and backend together:
 ```bash
 npm run dev:all
 ```
 
-### Start separately
+### Run (Separate)
+In two terminals:
 ```bash
-# Backend
+# JSON Server (API)
 npm run server
 
-# Frontend
+# Vite Dev Server (Frontend)
 npm run dev
 ```
 
-### Production preview
-```bash
-# Build and run JSON Server + serve dist on port 3000
-npm run start:prod
-```
+### URLs
+- Frontend: http://localhost:5173
+- API: http://localhost:3001
+
+## Authentication
+
+NewsWave supports two authentication methods:
+
+### Email/Password Login
+- Simple email and password authentication
+- Data persists in browser localStorage
+- Minimum password length: 6 characters
+
+### Google OAuth (Ready to integrate)
+- One-click Google Sign-In button
+- To enable production Google OAuth:
+  1. Create a Google OAuth application at [Google Cloud Console](https://console.cloud.google.com/)
+  2. Install: `npm install @react-oauth/google`
+  3. Update `src/context/AuthContext.tsx` with your Google Client ID
+  4. Wrap app with GoogleOAuthProvider
+
+## Admin Access
+
+Admin functionality is available after login with email `admin@newswave.com` and password `admin123`.
 
 ## Scripts
 
-- `dev` — start Vite dev server
-- `server` — start JSON Server (`db.json`, port 4000)
-- `dev:all` — run both concurrently
-- `build` — production build
-- `preview` — preview build via Vite
-- `serve:dist` — serve `dist` on port 3000
-- `start:prod` — build + JSON Server + static server
-- `lint` — run ESLint
+- `dev`: Start Vite dev server
+- `server`: Start JSON Server on port 3001
+- `dev:all`: Run both servers concurrently
+- `build`: Build for production
+- `build:dev`: Build in development mode
+- `preview`: Preview production build
+- `lint`: Run ESLint
+
+## API Endpoints
+
+- `GET /articles` – All articles
+- `GET /articles/:id` – Article by ID
+- `GET /articles?category=:slug` – Filter by category
+- `POST /articles` – Create article
+- `PATCH /articles/:id` – Update article
+- `DELETE /articles/:id` – Delete article
+- `GET /categories` – All categories
+
+## Project Structure
+
+```
+.
+├── db.json                 # JSON Server database
+├── src/
+│   ├── components/        # UI components (incl. shadcn/ui)
+│   ├── hooks/             # React Query + app hooks
+│   ├── pages/             # Routes (Home, Admin, etc.)
+│   ├── services/          # API service layer (axios)
+│   └── utils/             # Helpers & mock data
+└── package.json
+```
 
 ## Features
 
-- **Home**: all articles, filter by category
-- **Category**: browse by category route
-- **Details**: full article page
-- **Favorites**: save/manage favorites (localStorage)
-- **Admin**: CRUD via `/admin`
+- **Home:** Browse with category filtering
+- **Categories:** View by specific category
+- **Article Details:** Full view + related articles
+- **Favorites:** Save/manage locally
+- **Search:** Title/description/category
+- **Login:** Secure authentication system
+- **Admin Panel:** CRUD via `/admin` (admin-only)
+- **User Accounts:** Different access levels for admin and regular users
 
-## Notes
+## CRUD
 
-- Ensure JSON Server is running on port `4000` before using the app.
-- If ports are busy, update `vite.config.js` (frontend) or `package.json` (backend) and `API_BASE_URL` in `src/services/api.js`.
+Admin panel (`/admin`):
+1. Create – “Create Article”, fill and submit
+2. Read – List across admin/home/details
+3. Update – Edit from admin list
+4. Delete – Confirm deletion from admin list
+
+## Data Storage
+
+- Articles: `db.json` → `articles`
+- Categories: `db.json` → `categories`
+- Favorites: Browser `localStorage`
+
+## Troubleshooting
+
+- Ensure JSON Server is running on port 3001
+- If ports conflict, adjust `vite.config.ts` (frontend) or `package.json` script (backend); update API base in `src/services/api.ts` if needed
+- Validate `db.json` is present and valid
+
+Helpful tips:
+- If ports conflict, free them via PowerShell: `Get-NetTCPConnection -LocalPort 3001 | Stop-Process -Id {OwningProcess} -Force`
+- Verify API: `curl http://localhost:3001/articles`
 
 ## License
 
-Educational use.
+This project is for educational purposes.
 
 ## Author
 
-Built for a full-stack class project demonstrating React + JSON Server CRUD.
+Built to demonstrate a React app with JSON Server CRUD.
