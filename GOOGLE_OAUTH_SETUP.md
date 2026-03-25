@@ -156,8 +156,3 @@ POST /auth/logout
 - [@react-oauth/google GitHub](https://github.com/react-oauth/react-oauth.google)
 - [JWT Token Verification](https://developers.google.com/identity/sign-in/web/verify-aud)
 
-
-
-
-
-
